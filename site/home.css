@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(to right top, #c47106, #be3c32, #9c0b4d, #630c5e, #04175a);
+    background-attachment: fixed;
+
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around ;
+    padding: 10px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala',sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+.cabecalho-menu-item:hover{
+    font-weight: 900;
+}
+.content{
+    border-top: 0.1px solid #fff2e7;
+    margin-bottom: 0;
+
+}
+.content-main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    justify-content: space-around;
+}
+.content-main-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.content-main-text-title{
+    font-family: 'Righteous',cursive;
+    font-weight: 400;
+    font-size: 100px;
+    color: #fff2e7;
+
+}
+.content-main-text-subtitle{
+    font-family: 'Sarala',sans-serif;
+    color: #fff2e7;
+}
+.botao{
+    margin-top: 0%;
+    background-color:#fff2e7;
+    width: 180px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 12px;
+    font-family: 'Sarala',sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #be3c32;
+    
+}
+.botao:hover{
+    background-color: rgba(236,214,196,0.53);
+    cursor: pointer;
+}
+
+.footer-style{
+    border-top: 0.1px solid #fff2e7;
+    margin-top: 320px;
+
+}
+.footer-content-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 25px;
+    color: black;
+    font-family: 'Sarala',sans-serif;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
