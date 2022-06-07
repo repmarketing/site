@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200&display=swap');
 
 *{
     margin :0;
@@ -24,7 +24,6 @@ body{
     align-items: center;
     justify-content:space-around ;
     padding: 10px;
-    width: 100%;
 }
 
 .cabecalho-menu{
@@ -56,19 +55,21 @@ body{
 .content-main-text{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 
 }
 .content-main-text-title{
-    font-family: 'Righteous',cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 100px;
     color: #fff2e7;
 
 }
 .content-main-text-subtitle{
-    font-family: 'Sarala',sans-serif;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 200;
     color: #fff2e7;
+    padding-left: 5px;
 }
 .botao{
     margin-top: 0%;
@@ -103,8 +104,9 @@ body{
     flex-direction: row;
     justify-content: end;
     gap: 25px;
-    color: black;
+    color:#fff2e7;
     font-family: 'Sarala',sans-serif;
+    font-size: 12px;
     margin-top: 10px;
     margin-right: 15px;
     margin-bottom: 10px;
@@ -123,6 +125,43 @@ body{
     .cabecalho-menu{
         display: flex;
         justify-content:flex-end;
+        gap: 25px;
+        width: 100%;
+    }
+    .cabecalho-menu-item{
+        font-size: 12px;
+    }
+    .logopequeno{
+        width: fit-content;
+        height: fit-content;
+    }
+    .content-main-text-title{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        color: #fff2e7;
+    }
+    .content-main{
+        margin-top: 100px;
+    }
+
+    .logogrande{
+        width: 150px;
+        height: 150px;
+
+
+    }
+
+    
+}
+@media screen and (max-width: 400px) {
+    .cabecalho{
+        padding: 20px;
+        justify-content: end;
+    }
+    .cabecalho-menu{
+        display: flex;
+        justify-content:flex-end;
         gap: 20px;
         width: 100%;
     }
@@ -134,9 +173,9 @@ body{
         height: fit-content;
     }
     .content-main-text-title{
-        font-family: 'Righteous',cursive;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 400;
-        font-size: 50px;
+        font-size: 45px;
         color: #fff2e7;
     }
 
@@ -144,6 +183,11 @@ body{
         display: none;
 
 
+    }
+    .footer-style{
+        border-top: 0.1px solid #fff2e7;
+        margin-top: 250px;
+    
     }
 
     
