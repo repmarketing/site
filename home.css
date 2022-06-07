@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
-@media only screen and (max-device-width: 700px) {
-    /* .menu { width:400px; } */
-    }
-@media only screen and (max-device-width: 900px) {
-    /* .menu { width:600px; } */
-    }
+
+
 *{
     margin :0;
     padding: 0;
@@ -28,6 +24,7 @@ body{
     align-items: center;
     justify-content:space-around ;
     padding: 10px;
+    width: 100%;
 }
 
 .cabecalho-menu{
@@ -47,6 +44,7 @@ body{
 .content{
     border-top: 0.1px solid #fff2e7;
     margin-bottom: 0;
+    margin-top: 10px;
 
 }
 .content-main{
@@ -90,6 +88,10 @@ body{
     background-color: rgba(236,214,196,0.53);
     cursor: pointer;
 }
+.logogrande{
+    width: 320px;
+    height: 320px;
+}
 
 .footer-style{
     border-top: 0.1px solid #fff2e7;
@@ -111,4 +113,38 @@ body{
     display: flex;
     flex-direction: row;
     gap: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho{
+        padding: 35px;
+        justify-content: end;
+    }
+    .cabecalho-menu{
+        display: flex;
+        justify-content:flex-end;
+        gap: 20px;
+        width: 100%;
+    }
+    .cabecalho-menu-item{
+        font-size: 12px;
+    }
+    .logopequeno{
+        width: fit-content;
+        height: fit-content;
+    }
+    .content-main-text-title{
+        font-family: 'Righteous',cursive;
+        font-weight: 400;
+        font-size: 50px;
+        color: #fff2e7;
+    }
+
+    .logogrande{
+        display: none;
+
+
+    }
+
+    
 }
